@@ -25,4 +25,18 @@ nosetests
 
 ## Documentation
 
-Please see the [source code](spyctra) and corresponding [tests](tests) for example usage.
+Please see the [source code](spyctra) and corresponding [tests](tests) for further example usage.
+
+### Baseline fitting
+
+`spyctra.baseline` implements baseline correction using asymmetrically
+reweighted penalized least squares smoothing [arPLS](http://pubs.rsc.org/en/Content/ArticleLanding/2015/AN/C4AN01061B#!divAbstract).
+
+to use
+
+```python
+from spyctra import arPLS
+# y is some 1D spectrum
+# z will be the baseline of y
+z = arPLS(y)
+```

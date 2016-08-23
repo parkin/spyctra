@@ -13,7 +13,7 @@ def arPLS(y, lambda_=5.e5, ratio=1.e-6, itermax=50, log=False):
     Usage:
     >>> from spyctra import arPLS
     >>> # y is a 1D spectrum
-    >>> background_subtracted = arPLS(y)
+    >>> baseline = arPLS(y)
 
     :param y: The 1D spectrum
     :param lambda_: (Optional) Adjusts the balance between fitness and smoothness.
