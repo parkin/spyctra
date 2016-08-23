@@ -29,7 +29,7 @@ Please see the [source code](spyctra) and corresponding [tests](tests) for furth
 
 ### Baseline fitting
 
-`spyctra.baseline` implements baseline correction using asymmetrically
+[`spyctra.baseline`](spyctra/baseline.py) implements baseline correction using asymmetrically
 reweighted penalized least squares smoothing [arPLS](http://pubs.rsc.org/en/Content/ArticleLanding/2015/AN/C4AN01061B#!divAbstract).
 
 to use
