@@ -1,7 +1,7 @@
-from baseline import arPLS
+from .baseline import arPLS
 
-from functions import lorentz, gaussian
+from .functions import lorentz, gaussian
 
-from fitting import multifit
+from .fitting import multifit
 
-from cosmics import remove_cosmics
+from .cosmics import remove_cosmics
