@@ -41,7 +41,7 @@ def lorentz(p, x):
     if params.ndim < 2:
         ## Reshape a flattened array into full array
         n = len(params)
-        total = n / 3
+        total = n // 3
         if total > 1:
             params = params.reshape((total, 3))
         else:
@@ -92,7 +92,7 @@ def gaussian(p, x):
     if params.ndim < 2:
         ## Reshape a flattened array into full array
         n = len(params)
-        total = n / 3
+        total = n // 3
         if total > 1:
             params = params.reshape((total, 3))
         else:
